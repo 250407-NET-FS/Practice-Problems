@@ -1,6 +1,8 @@
-﻿// ---------------------------------------------
-// PRACTICE PROBLEMS 2 LAUNCHER
-// ---------------------------------------------
+﻿// ------------------------------
+// PracticeProblems2 - Exercise Launcher
+// ------------------------------
+
+using System;
 
 namespace PracticeProblems2
 {
@@ -8,13 +10,15 @@ namespace PracticeProblems2
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("== PracticeProblems2 Launcher ==\n");
-            Console.WriteLine(
-                "To run a specific exercise, change the Main method to call the appropriate class."
-            );
+            Console.WriteLine("=== PracticeProblems2 Launcher ===\n");
 
-            // Example usage:
-            // Exercise01.Run();
+            // Uncomment the exercise you want to run
+            // Exercises.Exercise01.Run();
+            // Exercises.Exercise02.Run();
+            // Exercises.Exercise03.Run();
+            // Exercises.Exercise04.Run();
+            // Exercises.Exercise05.Run();
+            // Exercises.Exercise06.Run();
         }
     }
 }
